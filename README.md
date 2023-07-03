@@ -31,3 +31,44 @@ Created by: https://github.com/HakanBabus
 - Go to [this](https://github.com/HakanBabus/EasyAnnouncement/releases) page.
 - Download lastest release.
 - Move the file to the plugins folder
+
+
+# Config Management
+
+```
+#sound management
+#multiple or single sound
+#distribute if there is more than one sound
+sound:
+  - mob.ghast.fireball
+
+
+#auto announcement settings
+auto-announcement:
+  enabled: true       # Enable setting for auto announcement
+  prefix: "§e§l> §f"  # Message prefix
+  time: 180           # Repeat time (seconds) (default 3 min = 180 seconds)
+  sound:
+    enabled: false    # if is true -> when send auto announcement, play random sound
+  messages:
+    - Message 1
+    - Message 2
+    - Message 3
+
+#player announcement settings
+player-announcement:
+  enabled: true      # if is false, don't register the command
+  prefix: "§e[ANNOUNCEMENT] §f{player} §e>§f "
+  command-settings:
+    name: announcement
+    description: Send announcement to server players
+    usage: "§cUsage: §f/announcement (message: string)"
+    aliases: []
+  sound:
+    enabled: true     #if is true -> when send announcement, play random sound
+
+# COMMAND PERMISSIONS
+
+# permission: announcement.command
+# default setting is op
+```
