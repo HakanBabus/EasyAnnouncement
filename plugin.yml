@@ -1,0 +1,9 @@
+name: "EasyAnnouncement"
+author: "HakanBabus"
+version: "1.0.0"
+api: ["4.0.0", "5.0.0"]
+main: HakanBabus\EasyAnnouncement\EasyAnnouncement
+
+permissions:
+  announcement.command:
+    default: op
