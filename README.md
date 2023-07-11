@@ -10,9 +10,7 @@ Created by: https://github.com/HakanBabus
 
   <p align="center">
     <img alt="GitHubrelease" src="https://img.shields.io/github/v/release/HakanBabus/EasyAnnouncement?label=release&sort=semver">
-    <a href="https://poggit.pmmp.io/p/EasyAnnouncement"><img src="https://poggit.pmmp.io/shield.state/EasyAnnouncement"></a>
 </p>
-
 
 
 # Features
@@ -30,8 +28,8 @@ Created by: https://github.com/HakanBabus
 
 # Add your server
 
-- Go to [this](https://github.com/HakanBabus/EasyAnnouncement/releases) page.
-- Download lastest release.
+- Go to [this](https://poggit.pmmp.io/p/EasyAnnouncement/1.0.0) page.
+- Click direct download.
 - Move the file to the plugins folder
 
 
