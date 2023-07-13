@@ -10,13 +10,13 @@ use pocketmine\Server;
 
 class AnnouncementCommand extends Command
 {
-    public function __construct(public EasyAnnouncement $main, public $cmdarray, string $name, Translatable|string $description = "", Translatable|string|null $usageMessage = null, array $aliases = [])
+        public function __construct(public EasyAnnouncement $main, public $cmdarray, string $name, Translatable|string $description = "", Translatable|string|null $usageMessage = null, array $aliases = [])
                 {
                     parent::__construct($name, $description, $usageMessage, $aliases);
                     $this->setPermission("easyannouncement.command");
                 }
 
-                public function execute(CommandSender $sender, string $commandLabel, array $args)
+        public function execute(CommandSender $sender, string $commandLabel, array $args)
                {
                    if($this->testPermission($sender)){
                        if(isset($args[0])){
