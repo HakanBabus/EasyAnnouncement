@@ -32,7 +32,7 @@ class EasyAnnouncement extends PluginBase{
         }
         if(($pa = $this->getConfig()->get("player-announcement"))["enabled"]){
             $this->getServer()->getCommandMap()->register(
-                "easyannouncement", 
+                "hb", 
                 new AnnouncementCommand(
                     $this,
                     $pa,
