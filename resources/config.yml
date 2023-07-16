@@ -29,8 +29,3 @@ player-announcement:
     aliases: []
   sound:
     enabled: true     #if is true -> when send announcement, play random sound
-
-# COMMAND PERMISSIONS
-
-# permission: announcement.command
-# default setting is op
